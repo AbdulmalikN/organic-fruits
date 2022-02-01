@@ -642,6 +642,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.for-iphone > :nth-child(1) {
+  height: 430px;
+  left: 50px;
+}
+
+.for-iphone > img {
+  position: absolute;
 }
 
 .for-text-cont-04 {
