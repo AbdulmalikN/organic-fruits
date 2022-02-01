@@ -196,7 +196,7 @@ body {
 }
 
 .for-image {
-  width: 862px;
+  width: 70%;
   height: 465px;
   background-image: url(../all-images/vegetables-fruits-white_55883-892\ 1.png);
   background-position: center;
@@ -205,7 +205,7 @@ body {
 }
 
 .subscribed-people {
-  width: 250px;
+  width: 24%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -361,7 +361,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-right: 24px;
+  margin-left: 24px;
 }
 
 .right-small-text-part > :nth-child(1) {
@@ -637,7 +637,7 @@ body {
 
 .for-iphone > :nth-child(1) {
   height: 430px;
-  left: 60px;
+  left: 50px;
 }
 
 .for-iphone > img {
