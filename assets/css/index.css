@@ -410,17 +410,7 @@ body {
 
 .right-first-content > :nth-child(5) {
   position: sticky;
-  /* animation: spin 2s linear infinite; */
 }
-
-/* @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} */
 
 .content-02 {
   width: 100%;
@@ -647,7 +637,7 @@ body {
 
 .for-iphone > :nth-child(1) {
   height: 430px;
-  left: 50px;
+  left: 60px;
 }
 
 .for-iphone > img {
