@@ -89,8 +89,8 @@ body {
 }
 
 .right-part01 > :nth-child(1) {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
 }
 
 .right-part01 > :nth-child(2) {
@@ -149,6 +149,7 @@ body {
   font-size: 65px;
   line-height: 90px;
   color: #222222;
+  text-align: center;
 }
 
 .p-part > :nth-child(2) {
@@ -696,6 +697,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgba(9, 166, 109, 0.05);
 }
 
 .main-part-footer {

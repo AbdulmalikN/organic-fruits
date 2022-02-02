@@ -68,7 +68,7 @@
 
   .p-part > :nth-child(2) {
     padding: 20px 55px;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 28px;
   }
 
@@ -78,8 +78,8 @@
   }
 
   .btn-link {
-    width: 62px;
-    height: 62px;
+    width: 60px;
+    height: 60px;
   }
 
   .bottom-part-image-people {
@@ -323,5 +323,441 @@
   .second-column > a {
     font-size: 16px;
     line-height: 21px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #root {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .top-part01 {
+    width: 100%;
+    padding: 15px 70px;
+  }
+
+  .navigation > a {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .right-part01 > :nth-child(3) {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .p-part {
+    padding: 92px 250px 0 250px;
+  }
+
+  .p-part > :nth-child(2) {
+    padding: 20px 70px 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .p-anchor {
+    width: 160px;
+  }
+
+  .p-anchor > :nth-child(1) {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .btn-link {
+    width: 58px;
+    height: 58px;
+  }
+
+  .bottom-part-image-people {
+    padding: 60px 70px 50px 70px;
+  }
+
+  .subscribed-people {
+    width: 22%;
+  }
+
+  .box-people {
+    margin-top: 27px;
+    padding: 14px 44px 14px 30px;
+  }
+
+  .box-people > :nth-child(1) {
+    width: 54px;
+    height: 54px;
+  }
+
+  .people-column > :nth-child(1) {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .people-column > :nth-child(2) {
+    font-family: DMSans;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+
+  .content-01 {
+    padding: 90px 70px;
+    overflow: hidden;
+  }
+
+  .right-first-content {
+    width: 32%;
+  }
+
+  .right-first-content > img {
+    right: 30%;
+  }
+
+  .right-first-content > :nth-child(1) {
+    width: 370px;
+    height: 370px;
+  }
+
+  .right-first-content > :nth-child(2) {
+    right: 38%;
+  }
+
+  .right-first-content > :nth-child(3) {
+    right: 38%;
+  }
+
+  .right-first-content > :nth-child(4) {
+    width: 400px;
+    height: 400px;
+    right: 25%;
+    bottom: 15%;
+  }
+
+  .right-first-content > :nth-child(5) {
+    width: 550px;
+    height: 550px;
+    margin-left: -50px;
+    position: sticky;
+  }
+
+  .left-part-cont-2 {
+    padding: 90px 25px 140px 70px;
+  }
+
+  .left-part-cont-2 > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .right-part-cont-02 {
+    padding: 130px 25px 0 25px;
+  }
+
+  .toppest-text > :nth-child(2) {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .leaves-bottom {
+    width: 380px;
+    height: 398px;
+    padding-right: 50px;
+  }
+
+  .content-03 {
+    padding: 90px 70px;
+  }
+
+  .content-04 {
+    padding: 130px 70px;
+  }
+
+  #footer-last {
+    padding: 50px 70px 70px 70px;
+  }
+}
+
+@media (max-width: 960px) {
+  #root {
+    max-width: 960px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .top-part01 {
+    padding: 15px 65px;
+  }
+
+  .navigation > a {
+    font-size: 15px;
+    line-height: 21px;
+    margin-right: 30px;
+  }
+
+  .p-part {
+    padding: 70px 150px 0 150px;
+  }
+
+  .p-part > :nth-child(1) {
+    font-size: 56px;
+    line-height: 78px;
+  }
+
+  .p-part > :nth-child(2) {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .bottom-part-image-people {
+    margin-top: 0;
+    padding: 60px 65px 50px 65px;
+  }
+
+  .for-image {
+    width: 65%;
+    height: 450px;
+  }
+
+  .subscribed-people {
+    width: 28%;
+  }
+
+  .box-people {
+    margin-top: 24px;
+    padding: 10px 30px;
+  }
+
+  .box-people > :nth-child(1) {
+    width: 50px;
+    height: 50px;
+  }
+
+  .people-column > :nth-child(1) {
+    font-size: 35px;
+  }
+
+  .people-column > :nth-child(2) {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .content-01 {
+    padding: 60px 50px;
+    overflow: visible;
+  }
+
+  .left-firstcontent {
+    width: 50%;
+  }
+
+  .top-part01-cont > :nth-child(1) {
+    font-size: 56px;
+    line-height: 78px;
+  }
+
+  .top-part01-cont > :nth-child(2) {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .bottom-part01-cont {
+    width: 90%;
+    padding: 45px 0;
+  }
+
+  .same-three-types {
+    width: 100%;
+    padding: 15px 35px;
+  }
+
+  .for-round-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .right-small-text-part {
+    margin-left: 22px;
+  }
+
+  .right-small-text-part > :nth-child(1) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .right-small-text-part > :nth-child(2) {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .right-first-content {
+    width: 48%;
+  }
+
+  .right-first-content > img {
+    width: 60%;
+    height: 60%;
+    right: 20%;
+    top: 70px;
+    padding-top: 0;
+  }
+
+  .right-first-content > :nth-child(1) {
+    width: 350px;
+    height: 350px;
+  }
+
+  .right-first-content > :nth-child(2) {
+    width: 100%;
+    height: 100%;
+    top: 85px;
+    right: 14%;
+  }
+
+  .right-first-content > :nth-child(3) {
+    width: 100%;
+    height: 100%;
+    top: 85px;
+    right: 15%;
+  }
+
+  .right-first-content > :nth-child(4) {
+    width: 310px;
+    height: 380px;
+    right: 24%;
+    top: 0;
+  }
+
+  .right-first-content > :nth-child(5) {
+    width: 330px;
+    height: 480px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .left-part-cont-2 {
+    padding: 70px 25px 180px 50px;
+  }
+
+  .right-part-cont-02 {
+    padding: 130px 25px 0;
+  }
+
+  .toppest-text > :nth-child(1) {
+    font-size: 56px;
+    line-height: 78px;
+  }
+
+  .toppest-text > :nth-child(2) {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .bottom-btn-img {
+    flex-direction: column;
+  }
+
+  .p-btn0 > :nth-child(1) {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .p-btn0 > .btn-link {
+    margin-left: 20px;
+  }
+
+  .content-03 {
+    padding: 70px 50px;
+  }
+
+  .cont-03-text-left > :nth-child(1) {
+    font-size: 56px;
+    line-height: 78px;
+  }
+
+  .cont-03-text-left > :nth-child(2) {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .bottom-cont-03-left {
+    width: 72%;
+  }
+
+  .beard-man-img-right {
+    width: 43%;
+  }
+
+  .beard-man-img-right > :nth-child(1) {
+    width: 100%;
+    height: 80%;
+  }
+
+  .beard-man-img-right > :nth-child(2) {
+    width: 70%;
+    right: 55%;
+    top: 70%;
+  }
+
+  .content-04 {
+    padding: 80px 50px;
+  }
+
+  .for-iphone > :nth-child(1) {
+    display: none;
+  }
+
+  .for-text-cont-04 {
+    width: 62%;
+  }
+
+  .for-text-cont-04 > :nth-child(1) {
+    width: 165px;
+    height: 35px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .for-text-cont-04 > :nth-child(2) {
+    font-size: 56px;
+    line-height: 78px;
+  }
+
+  .for-text-cont-04 > :nth-child(3) {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  #footer-last {
+    padding: 50px 70px;
+  }
+
+  .main-part-footer {
+    flex-wrap: wrap;
+  }
+
+  .first-column {
+    width: auto;
+    align-items: center;
+  }
+
+  .first-column > :nth-child(2) {
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .second-column > :nth-child(1) {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .second-column > a {
+    font-size: 16px;
+    line-height: 23px;
+    padding-bottom: 20px;
   }
 }
