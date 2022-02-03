@@ -52,8 +52,13 @@
   }
 
   .top-part01 {
+    max-width: 1270px;
     width: 100%;
     padding: 25px 90px;
+    position: fixed;
+    top: 0;
+    background: #ffffff;
+    z-index: 3;
   }
 
   .p-part {
@@ -334,8 +339,13 @@
   }
 
   .top-part01 {
+    max-width: 1200px;
     width: 100%;
     padding: 15px 70px;
+    position: fixed;
+    top: 0;
+    background: #ffffff;
+    z-index: 3;
   }
 
   .navigation > a {
@@ -487,7 +497,9 @@
   }
 
   .top-part01 {
+    max-width: 960px;
     padding: 15px 50px;
+    position: fixed;
   }
 
   .navigation > a {
@@ -770,6 +782,7 @@
   }
 
   .top-part01 {
+    max-width: 771px;
     padding: 15px 40px;
   }
 
@@ -1100,6 +1113,7 @@
   }
 
   .top-part01 {
+    max-width: 640px;
     padding: 10px 20px;
   }
 
@@ -1372,6 +1386,10 @@
     height: 100%;
   }
 
+  .top-part01 {
+    max-width: 480px;
+  }
+
   .navigation {
     position: absolute;
     left: 30%;
@@ -1570,6 +1588,10 @@
     height: 100%;
   }
 
+  .top-part01 {
+    max-width: 460px;
+  }
+
   .top-paragraph {
     overflow: hidden;
   }
@@ -1583,8 +1605,13 @@
   }
 
   .top-part01 {
-    position: relative;
+    max-width: 412px;
+    /* position: relative; */
     padding: 10px;
+  }
+
+  .content-header {
+    padding-top: 15%;
   }
 
   .navigation {
@@ -1721,6 +1748,14 @@
     max-width: 360px;
     width: 100%;
     height: 100%;
+  }
+
+  .top-part01 {
+    max-width: 360px;
+  }
+
+  .content-header {
+    padding-top: 18%;
   }
 
   .p-part {
@@ -1869,6 +1904,10 @@
     max-width: 320px;
     width: 100%;
     height: 100%;
+  }
+
+  .top-part01 {
+    max-width: 320px;
   }
 
   .p-part > :nth-child(1) {
