@@ -1820,7 +1820,6 @@
   .for-five-stars > :nth-child(1) {
     font-size: 20px;
     line-height: 28px;
-    color: #222222;
   }
 
   .left-arrow {
@@ -1861,6 +1860,96 @@
   }
 
   .main-part-footer > :nth-child(4) {
-    margin-left: 120px;
+    margin-left: 110px;
+  }
+}
+
+@media (max-width: 320px) {
+  #root {
+    max-width: 320px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .p-part > :nth-child(1) {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .p-part > :nth-child(2) {
+    font-size: 12px;
+  }
+
+  .p-anchor > :nth-child(2) {
+    width: 45px;
+    height: 45px;
+    padding: 5px 2px 4px;
+  }
+
+  .p-anchor > :nth-child(2) > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .box-people > :nth-child(1) {
+    width: 45px;
+    height: 45px;
+  }
+
+  .top-part01-cont > :nth-child(1) {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .top-part01-cont > :nth-child(2) {
+    padding: 5px 20px;
+  }
+
+  .same-three-types {
+    padding: 18px 10px;
+  }
+
+  .left-part-cont-2 {
+    margin-right: -45%;
+  }
+
+  .toppest-text > :nth-child(1) {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .cont-03-text-left > :nth-child(1) {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .beard-man-img-right {
+    margin-top: -100px;
+  }
+
+  .beard-man-img-right > :nth-child(1) {
+    height: 33%;
+  }
+
+  .for-five-stars > :nth-child(1) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .left-arrow {
+    width: 38px;
+    height: 38px;
+  }
+
+  .for-text-cont-04 > :nth-child(1) {
+    width: 130px;
+  }
+
+  .main-part-footer > :nth-child(4) {
+    margin-left: 95px;
+  }
+
+  .for-web-apps > button {
+    margin-right: 32px;
   }
 }
